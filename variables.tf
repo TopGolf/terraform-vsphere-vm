@@ -42,7 +42,7 @@ variable "disk_label" {
 
 variable "disk_size_gb" {
   description = "List of disk sizes to override template disk size."
-  type        = list(any)
+  type        = number
   default     = null
 }
 
